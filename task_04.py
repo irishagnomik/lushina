@@ -6,9 +6,6 @@ def linear_search(list, target):
         if value == target:
             return index
     return -1 # Если элемент не найден
-    
-def search_random(rlist, x):
-    return linear_search(rlist, x)
 
 if os.path.exists('search_results.txt'):
     os.remove('search_results.txt')
